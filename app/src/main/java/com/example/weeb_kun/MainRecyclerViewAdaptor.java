@@ -32,7 +32,7 @@ public class MainRecyclerViewAdaptor extends RecyclerView.Adapter<MainRecyclerVi
     @Override
     public MainRecyclerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.actrivity_main_recycler_layout, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_main_recycler_layout, parent, false);
         return new MainRecyclerViewHolder(view);
     }
 
